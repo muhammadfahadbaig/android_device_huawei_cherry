@@ -1,0 +1,10 @@
+/3rdmodem	ext4    /dev/block/platform/hi_mci.0/by-name/3rdmodem flags=display="3rdmodem";backup=1
+/cache		ext4	/dev/block/platform/hi_mci.0/by-name/cache
+/boot		emmc	/dev/block/platform/hi_mci.0/by-name/boot
+/data		ext4	/dev/block/platform/hi_mci.0/by-name/userdata 
+/recovery	emmc	/dev/block/platform/hi_mci.0/by-name/recovery 
+/system		ext4	/dev/block/platform/hi_mci.0/by-name/system
+/cust		ext4	/dev/block/platform/hi_mci.0/by-name/cust flags=display="Cust";backup=1
+/misc		emmc	/dev/block/platform/hi_mci.0/by-name/misc flags=display="Misc";backup=0
+/external_sd	auto	/dev/block/mmcblk1p1 flags=display="Micro SDCard";storage;wipeingui;removable
+/usbotg		auto	/dev/block/sda1 flags=display="USB OTG";storage;removable
